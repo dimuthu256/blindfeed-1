@@ -12,9 +12,9 @@
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
     <title>BlindFeed</title>
     <!-- Bootstrap core CSS -->
-    <link href='<c:url value="resources/css/bootstrap.css"></c:url>' rel="stylesheet">
+    <link href='<c:url value="/css/bootstrap.css"></c:url>' rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href='<c:url value="/resources/css/navbar-fixed-top.css"></c:url>' rel="stylesheet">
+    <link href='<c:url value="/css/navbar-fixed-top.css"></c:url>' rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -40,10 +40,10 @@
           </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="welcome">නිවහන</a></li>
-            <li><a href="about">විස්තර</a></li>
+            <li><a href="index.jsp">නිවහන</a></li>
+            <li><a href="about.jsp">විස්තර</a></li>
             <li class="active"><a href="#">අපගැන</a></li>
-            <li><a href="help">උදව්</a></li>
+            <li><a href="help.jsp">උදව්</a></li>
            
           </ul>
          <form action="login1" class="navbar-form navbar-right" role="form" method="post" commandName="login_user">
@@ -81,7 +81,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src='<c:url value="resources/js/bootstrap.min.js"></c:url>'></script>
+    <script src='<c:url value="/js/bootstrap.min.js"></c:url>'></script>
   </body>
 
 </html>

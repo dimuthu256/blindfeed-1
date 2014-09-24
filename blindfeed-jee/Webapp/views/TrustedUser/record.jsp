@@ -4,10 +4,10 @@
 		<html>
 <head>
 
-	  <link href='<c:url value="/resources/css/navbar-fixed-top.css"></c:url>' rel="stylesheet">
-	  <link href='<c:url value="/resources/css/bootstrap.css"></c:url>' rel="stylesheet">
-	  <script src='<c:url value="/resources/jquery.min.js"></c:url>'> </script>
-	  <script src='<c:url value="/resources/jRecorder.js"></c:url>'> </script>
+	  <link href='<c:url value="/css/navbar-fixed-top.css"></c:url>' rel="stylesheet">
+	  <link href='<c:url value="/css/bootstrap.css"></c:url>' rel="stylesheet">
+	  <script src='<c:url value="/js/jquery.min.js"></c:url>'> </script>
+	  <script src='<c:url value="/js/jRecorder.js"></c:url>'> </script>
   
 		<title>පටිගත කිරීම</title>  
 

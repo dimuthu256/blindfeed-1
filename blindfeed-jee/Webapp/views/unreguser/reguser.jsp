@@ -13,9 +13,9 @@
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
     <title>BlindFeed</title>
     <!-- Bootstrap core CSS -->
-    <link href='<c:url value="resources/css/bootstrap.css"></c:url>' rel="stylesheet">
+    <link href='<c:url value="/css/bootstrap.css"></c:url>' rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href='<c:url value="/resources/css/navbar-fixed-top.css"></c:url>' rel="stylesheet">
+    <link href='<c:url value="/css/navbar-fixed-top.css"></c:url>' rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -42,9 +42,9 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#"></a>නිවහන</li>
-            <li><a href="about">විස්තර</a></li>
-            <li><a href="contact">අපගැන</a></li>
-            <li><a href="help">උදව්</a></li>
+            <li><a href="about.jsp">විස්තර</a></li>
+            <li><a href="contact.jsp">අපගැන</a></li>
+            <li><a href="help.jsp">උදව්</a></li>
             
           </ul>
       <form action="login1" class="navbar-form navbar-right" role="form" method="post" commandName="login_user">
@@ -71,7 +71,7 @@
         <h1>BlindFeed.</h1>
         <p>ඔවුන්ගේ දිවියට නව අරුතක් </p>
         <p>
-          <a class="btn btn-lg btn-primary" href="about" role="button">තව විස්තර බලන්න &raquo;</a>
+          <a class="btn btn-lg btn-primary" href="about.jsp" role="button">තව විස්තර බලන්න &raquo;</a>
         </p>
       </div>
       <div class="container">
@@ -83,6 +83,6 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src='<c:url value="resources/js/bootstrap.min.js"></c:url>'></script>
+    <script src='<c:url value="/js/bootstrap.min.js"></c:url>'></script>
   </body>
 </html>

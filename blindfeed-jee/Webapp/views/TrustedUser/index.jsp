@@ -12,9 +12,9 @@
     <title>BlindFeed</title>
     
     <!-- Bootstrap core CSS -->
-    <link href='<c:url value="resources/css/bootstrap.css"></c:url>' rel="stylesheet">
+    <link href='<c:url value="/css/bootstrap.css"></c:url>' rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href='<c:url value="/resources/css/navbar-fixed-top.css"></c:url>' rel="stylesheet">
+    <link href='<c:url value="/css/navbar-fixed-top.css"></c:url>' rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -41,11 +41,11 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">නිවහන</a></li>
-            <li><a href="record">දායකවන්න </a></li>
-            <li><a href="validation">නිරවද්‍යතාව තහවුරු කරන්න </a></li>
-            <li><a href="userabout">විස්තර </a></li>
-            <li><a href="usercontact">අපව අමතන්න</a></li>
-            <li><a href="userhelp">උදව්</a></li>
+            <li><a href="record.jsp">දායකවන්න </a></li>
+            <li><a href="validation.jsp">නිරවද්‍යතාව තහවුරු කරන්න </a></li>
+            <li><a href="userabout.jsp">විස්තර </a></li>
+            <li><a href="usercontact.jsp">අපව අමතන්න</a></li>
+            <li><a href="userhelp.jsp">උදව්</a></li>
           </ul>
            <form class="navbar-form navbar-right" role="form">
              <a id="user" class="btn btn-success" href="#" role="button">ඔබ  ${user} ලෙස ඇතුළුවී ඇත </a>
@@ -108,6 +108,6 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-   <script src='<c:url value="resources/js/bootstrap.min.js"></c:url>'></script>
+   <script src='<c:url value="/js/bootstrap.min.js"></c:url>'></script>
   </body>
 </html>
